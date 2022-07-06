@@ -1,0 +1,21 @@
+python3 -m venv name_env
+
+# en sistemas Unix
+source name_env/bin/activate 
+.\name_env\Scripts\activate
+deactivate
+
+para ver lo instalado
+pip freeze 
+
+source name_env/bin/activate
+uma vez activate
+pip install name_pakete
+
+pip freeze > requisitos.txt 
+
+pip install -r requisitos.txt
+
+
+
+
